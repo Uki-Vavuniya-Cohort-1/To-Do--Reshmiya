@@ -1,6 +1,10 @@
 const mongoose = require('mongoose')
 const URI = "mongodb+srv://asirreshmi0103:asir0103@cluster0.ivhu6sq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
+const express = require('express');
+const { log } = require('console');
+const app = express();
+
 
 
 mongoose.connect(URI)
